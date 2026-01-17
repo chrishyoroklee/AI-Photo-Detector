@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		400549D62F1BCAC400C7F652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 400549BD2F1BCAC100C7F652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 400549C42F1BCAC100C7F652;
+			remoteInfo = "AI Photo Detector";
+		};
+		400549E02F1BCAC400C7F652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 400549BD2F1BCAC100C7F652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 400549C42F1BCAC100C7F652;
+			remoteInfo = "AI Photo Detector";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		400549C52F1BCAC100C7F652 /* AI Photo Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Photo Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		400549D52F1BCAC400C7F652 /* AI Photo DetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI Photo DetectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		400549DF2F1BCAC400C7F652 /* AI Photo DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI Photo DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		400549C72F1BCAC100C7F652 /* AI Photo Detector */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AI Photo Detector";
+			sourceTree = "<group>";
+		};
+		400549D82F1BCAC400C7F652 /* AI Photo DetectorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AI Photo DetectorTests";
+			sourceTree = "<group>";
+		};
+		400549E22F1BCAC400C7F652 /* AI Photo DetectorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AI Photo DetectorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		400549C22F1BCAC100C7F652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400549D22F1BCAC400C7F652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400549DC2F1BCAC400C7F652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400549BC2F1BCAC100C7F652 = {
+			isa = PBXGroup;
+			children = (
+				400549C72F1BCAC100C7F652 /* AI Photo Detector */,
+				400549D82F1BCAC400C7F652 /* AI Photo DetectorTests */,
+				400549E22F1BCAC400C7F652 /* AI Photo DetectorUITests */,
+				400549C62F1BCAC100C7F652 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		400549C62F1BCAC100C7F652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				400549C52F1BCAC100C7F652 /* AI Photo Detector.app */,
+				400549D52F1BCAC400C7F652 /* AI Photo DetectorTests.xctest */,
+				400549DF2F1BCAC400C7F652 /* AI Photo DetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		400549C42F1BCAC100C7F652 /* AI Photo Detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 400549E92F1BCAC400C7F652 /* Build configuration list for PBXNativeTarget "AI Photo Detector" */;
+			buildPhases = (
+				400549C12F1BCAC100C7F652 /* Sources */,
+				400549C22F1BCAC100C7F652 /* Frameworks */,
+				400549C32F1BCAC100C7F652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				400549C72F1BCAC100C7F652 /* AI Photo Detector */,
+			);
+			name = "AI Photo Detector";
+			packageProductDependencies = (
+			);
+			productName = "AI Photo Detector";
+			productReference = 400549C52F1BCAC100C7F652 /* AI Photo Detector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		400549D42F1BCAC400C7F652 /* AI Photo DetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 400549EC2F1BCAC400C7F652 /* Build configuration list for PBXNativeTarget "AI Photo DetectorTests" */;
+			buildPhases = (
+				400549D12F1BCAC400C7F652 /* Sources */,
+				400549D22F1BCAC400C7F652 /* Frameworks */,
+				400549D32F1BCAC400C7F652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				400549D72F1BCAC400C7F652 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				400549D82F1BCAC400C7F652 /* AI Photo DetectorTests */,
+			);
+			name = "AI Photo DetectorTests";
+			packageProductDependencies = (
+			);
+			productName = "AI Photo DetectorTests";
+			productReference = 400549D52F1BCAC400C7F652 /* AI Photo DetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		400549DE2F1BCAC400C7F652 /* AI Photo DetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 400549EF2F1BCAC400C7F652 /* Build configuration list for PBXNativeTarget "AI Photo DetectorUITests" */;
+			buildPhases = (
+				400549DB2F1BCAC400C7F652 /* Sources */,
+				400549DC2F1BCAC400C7F652 /* Frameworks */,
+				400549DD2F1BCAC400C7F652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				400549E12F1BCAC400C7F652 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				400549E22F1BCAC400C7F652 /* AI Photo DetectorUITests */,
+			);
+			name = "AI Photo DetectorUITests";
+			packageProductDependencies = (
+			);
+			productName = "AI Photo DetectorUITests";
+			productReference = 400549DF2F1BCAC400C7F652 /* AI Photo DetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		400549BD2F1BCAC100C7F652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					400549C42F1BCAC100C7F652 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					400549D42F1BCAC400C7F652 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 400549C42F1BCAC100C7F652;
+					};
+					400549DE2F1BCAC400C7F652 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 400549C42F1BCAC100C7F652;
+					};
+				};
+			};
+			buildConfigurationList = 400549C02F1BCAC100C7F652 /* Build configuration list for PBXProject "AI Photo Detector" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 400549BC2F1BCAC100C7F652;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 400549C62F1BCAC100C7F652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				400549C42F1BCAC100C7F652 /* AI Photo Detector */,
+				400549D42F1BCAC400C7F652 /* AI Photo DetectorTests */,
+				400549DE2F1BCAC400C7F652 /* AI Photo DetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		400549C32F1BCAC100C7F652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400549D32F1BCAC400C7F652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400549DD2F1BCAC400C7F652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		400549C12F1BCAC100C7F652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400549D12F1BCAC400C7F652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400549DB2F1BCAC400C7F652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		400549D72F1BCAC400C7F652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 400549C42F1BCAC100C7F652 /* AI Photo Detector */;
+			targetProxy = 400549D62F1BCAC400C7F652 /* PBXContainerItemProxy */;
+		};
+		400549E12F1BCAC400C7F652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 400549C42F1BCAC100C7F652 /* AI Photo Detector */;
+			targetProxy = 400549E02F1BCAC400C7F652 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		400549E72F1BCAC400C7F652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		400549E82F1BCAC400C7F652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		400549EA2F1BCAC400C7F652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI Photo Detector/Preview Content\"";
+				DEVELOPMENT_TEAM = DC583QU6ZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyoroklee.sugarmeter.AI-Photo-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		400549EB2F1BCAC400C7F652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI Photo Detector/Preview Content\"";
+				DEVELOPMENT_TEAM = DC583QU6ZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyoroklee.sugarmeter.AI-Photo-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		400549ED2F1BCAC400C7F652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC583QU6ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyoroklee.sugarmeter.AI-Photo-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI Photo Detector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI Photo Detector";
+			};
+			name = Debug;
+		};
+		400549EE2F1BCAC400C7F652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC583QU6ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyoroklee.sugarmeter.AI-Photo-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI Photo Detector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI Photo Detector";
+			};
+			name = Release;
+		};
+		400549F02F1BCAC400C7F652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC583QU6ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyoroklee.sugarmeter.AI-Photo-DetectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AI Photo Detector";
+			};
+			name = Debug;
+		};
+		400549F12F1BCAC400C7F652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC583QU6ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyoroklee.sugarmeter.AI-Photo-DetectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AI Photo Detector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		400549C02F1BCAC100C7F652 /* Build configuration list for PBXProject "AI Photo Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400549E72F1BCAC400C7F652 /* Debug */,
+				400549E82F1BCAC400C7F652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		400549E92F1BCAC400C7F652 /* Build configuration list for PBXNativeTarget "AI Photo Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400549EA2F1BCAC400C7F652 /* Debug */,
+				400549EB2F1BCAC400C7F652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		400549EC2F1BCAC400C7F652 /* Build configuration list for PBXNativeTarget "AI Photo DetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400549ED2F1BCAC400C7F652 /* Debug */,
+				400549EE2F1BCAC400C7F652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		400549EF2F1BCAC400C7F652 /* Build configuration list for PBXNativeTarget "AI Photo DetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400549F02F1BCAC400C7F652 /* Debug */,
+				400549F12F1BCAC400C7F652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 400549BD2F1BCAC100C7F652 /* Project object */;
+}
