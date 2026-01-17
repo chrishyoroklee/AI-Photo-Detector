@@ -1,0 +1,12 @@
+# CoreML model (too large for GitHub - generate from AI-Photo-Detector-model repo)
+*.mlpackage/
+
+# Xcode
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+DerivedData/
+build/
+
+# macOS
+.DS_Store
